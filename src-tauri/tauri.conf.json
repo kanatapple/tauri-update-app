@@ -1,0 +1,50 @@
+{
+  "productName": "tauri-update-app",
+  "version": "0.0.0",
+  "identifier": "com.tauri.update.app",
+  "plugins": {
+    "updater": {
+      "active": true,
+      "windows": {
+        "installMode": "passive"
+      },
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDgyOEE5NzYyOEZCRDQwNTAKUldSUVFMMlBZcGVLZ2d6T0RMWVBBQlIzSDFqcDNneU9HWkt3c3ppaUFmSGtacjNVWmlrY1RJdEUK",
+      "endpoints": [
+        "https://example.com"
+      ]
+    }
+  },
+  "build": {
+    "beforeDevCommand": "yarn dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "yarn build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "withGlobalTauri": true,
+    "windows": [
+      {
+        "title": "tauri-update-app",
+        "width": 800,
+        "height": 600
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "msi",
+      "updater"
+    ],
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}
