@@ -1,0 +1,11 @@
+{
+  "version": "v1.0.0",
+  "notes": "Test version",
+  "pub_date": "2020-06-22T19:25:57Z",
+  "platforms": {
+    "windows-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSUVFMMlBZcGVLZ3RTU2k2K3NlQmt3U1ZlVjlSeHBrTmlFcnp3SEhBMDRkS2xIamQzdVg3Uzl6aXlURnFJTHIvRVhwcWxPMWN5QkM5UmpESmtDM3g3QXA0WXBxQWxtNFFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzEzMjQ5NjY0CWZpbGU6dGF1cmktdXBkYXRlLWFwcF8wLjAuMV94NjRfZW4tVVMubXNpLnppcApNMmNyTXBBZjBNbm5wa1VDMitobWQxdUVwTFRYaUpFYyt1VllDaTJlOUJxSlpDd0Y0dmZES1VpZzlGVERMemljT09mMy9YZ2YvN29tUXNpYWUzdUFBdz09Cg==",
+      "url": "https://kanatapple.github.io/tauri-update-app//tauri-update-app_0.0.1_x64_en-US.msi.zip"
+    }
+  }
+}
